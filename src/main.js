@@ -31,9 +31,7 @@ form.addEventListener('submit', (event) => {
                 input.value = '';
                 return;
             }
-            // else {
-            //     createGallary(data)
-            // }
+           
             loader.classList.add("hidden")
             console.log(data);
             createGallary(data);

@@ -42,7 +42,6 @@ export function createGallary(data) {
 
     document.querySelector('.gallery-list').insertAdjacentHTML("beforeend", images);
     lightbox.refresh();
-    // lightbox.on('show.simplelightbox', function () {})
 }
 
 export function cleanGallery() {
